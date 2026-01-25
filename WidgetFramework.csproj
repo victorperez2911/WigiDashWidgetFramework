@@ -11,6 +11,15 @@
     <FileVersion>1.0.0.1</FileVersion>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <LangVersion>latest</LangVersion>
+
+    <!-- NuGet Configuration -->
+    <PackageId>victorperez2911.WigiDashWidgetFramework</PackageId>
+    <Authors>Victor Perez</Authors>
+    <Description>Framework for WigiDash Widgets</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/victorperez2911/WigiDashWidgetFramework</RepositoryUrl>
+    <PackageTags>wigidash;widget;framework</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;Core</DefineConstants>
